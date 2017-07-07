@@ -1,0 +1,56 @@
+li:first-child {
+	font-weight: bold;
+} /*pseudo class*/
+
+body {
+	font-family: Tahoma; /*should be the official fb font */
+}
+
+input {
+	width:250px;
+}
+
+.lcontainer ul{
+ 	margin: 40px;
+    padding: 0;
+    text-align: right;
+	list-style-type: none;} /*without bullets*/
+
+.lcontainer   {
+    width:24%; 
+    background-color: #E9EBEE;
+    float:left;
+    margin-right:5px;
+    min-height:50px;
+    position:fixed;
+  }
+
+.mcontainer  {
+    min-height: 1000px; 
+    width: 45%;
+    margin-right: 5px;
+    overflow: auto; 
+    background-color: transparent;
+    position:absolute;
+    left:28.5%;
+    text-align: center;
+  }
+
+.mcontainer > p::first-line {
+	color: red;
+} /*psydo class*/
+
+
+.rcontainer {
+     width:24%; 
+     background-color: #E9EBEE;
+     min-height:50px;
+     position:fixed;
+     right:0px;
+     text-align: center;
+   }
+
+#bold { 
+	font-weight: 700;
+} /*one and only id :)*/
+
